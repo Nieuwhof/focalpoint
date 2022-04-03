@@ -14,21 +14,21 @@
 # CHAIN variable below
 
 # change the following variables to match your new coin
-COIN_NAME="DigiCopper"
-COIN_UNIT="DGC"
+COIN_NAME="Focal"
+COIN_UNIT="FC"
 # 42 million coins at total (litecoin total supply is 84000000)
 TOTAL_SUPPLY=1000000000
 MAINNET_PORT="59333"
 TESTNET_PORT="59335"
 PHRASE="Vandag is n baie mooi dag vir my en my vrou"
 # First letter of the wallet address. Check https://en.bitcoin.it/wiki/Base58Check_encoding
-PUBKEY_CHAR="18"
+PUBKEY_CHAR="20"
 # number of blocks to wait to be able to spend coinbase UTXO's
-COINBASE_MATURITY=25
+COINBASE_MATURITY=20
 # leave CHAIN empty for main network, -regtest for regression network and -testnet for test network
 CHAIN=""
 # this is the amount of coins to get as a reward of mining the block of height 1. if not set this will default to 50
-PREMINED_AMOUNT=10000000
+# PREMINED_AMOUNT=10000000
 
 # warning: change this to your own pubkey to get the genesis block mining reward
 GENESIS_REWARD_PUBKEY=04314421ED3DFC757CECFC65E2626562DB8050710BD10A0AD1ADAD46950BB033F0CB5B00197CCF6DF0482962C555ADC48C0E8103C4F6179720D94693391FBC36D1
