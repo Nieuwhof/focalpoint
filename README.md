@@ -40,7 +40,7 @@ sudo apt-get install libssl1.0-dev
 
 sudo apt-get install libboost-program-options-dev
 
-QT Gui
+#QT Gui
 sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler
 
 sudo apt-get install libqrencode-dev
@@ -49,6 +49,6 @@ sudo apt-get install libminiupnpc-dev
 
 sudo apt-get install build-essential libtool autotools-dev automake pkg-config bsdmainutils python3
 
-Portainer
+#Portainer
 sudo docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
 
