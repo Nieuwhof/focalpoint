@@ -37,3 +37,5 @@ sudo apt-get install libqt4-dev libprotobuf-dev protobuf-compiler
 sudo apt-get install openssl1.0
 
 sudo apt-get install libssl1.0-dev
+
+sudo apt-get install libboost-program-options-dev
