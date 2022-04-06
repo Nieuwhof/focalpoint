@@ -22,9 +22,9 @@ MAINNET_PORT="59333"
 TESTNET_PORT="59335"
 PHRASE="Vandag is n baie mooi dag vir my en my vrou"
 # First letter of the wallet address. Check https://en.bitcoin.it/wiki/Base58Check_encoding
-PUBKEY_CHAR="20"
+PUBKEY_CHAR="14"
 # number of blocks to wait to be able to spend coinbase UTXO's
-COINBASE_MATURITY=20
+COINBASE_MATURITY="14"
 # leave CHAIN empty for main network, -regtest for regression network and -testnet for test network
 CHAIN=""
 # this is the amount of coins to get as a reward of mining the block of height 1. if not set this will default to 50
