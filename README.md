@@ -54,12 +54,15 @@ sudo docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock por
 
 # Extra
 for i in $(docker ps -q); do docker exec $i /focalpoint/src/focalpoint-cli  getblockchaininfo; done
+
 for i in $(docker ps -q); do docker exec $i /focalpoint/src/focalpoint-cli  generate 2  & done
 
 # Extra 2
 Generate 11 blocks to myaddress:
+
 bitcoin-cli generatetoaddress 11 "myaddress"
 
 If you are using the Bitcoin Core wallet, you can get a new address to send the newly generated bitcoin to with::
+
 bitcoin-cli getnewaddress
 
