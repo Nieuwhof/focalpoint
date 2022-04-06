@@ -14,10 +14,10 @@
 # CHAIN variable below
 
 # change the following variables to match your new coin
-COIN_NAME="Focal"
-COIN_UNIT="FC"
+COIN_NAME="FocalPoint"
+COIN_UNIT="FCP"
 # 42 million coins at total (litecoin total supply is 84000000)
-TOTAL_SUPPLY=1000000000
+TOTAL_SUPPLY=100000000
 MAINNET_PORT="59333"
 TESTNET_PORT="59335"
 PHRASE="Vandag is n baie mooi dag vir my en my vrou"
@@ -31,7 +31,7 @@ CHAIN=""
 # PREMINED_AMOUNT=10000000
 
 # warning: change this to your own pubkey to get the genesis block mining reward
-GENESIS_REWARD_PUBKEY=04E1674A4BAB38AF3A7B2C11AD061EF0C8C889DD20E86146F9D4A99052C903EDA1C63C333B8093A497004DA1388E78A498D223EFE4EF9B37379E644CEF7CDBFD2A
+GENESIS_REWARD_PUBKEY=049af4712e79a711de694e3150b375512dfe1454899cd083a5fa12dba4db124536a4d3c84c1bb442bc0deeb7880b8b93fec780c3b6fd807a1b9e6f58e855aa0f80
 
 # dont change the following variables unless you know what you are doing
 LITECOIN_BRANCH=0.16
