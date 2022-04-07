@@ -1,4 +1,7 @@
 # focalpoint
+echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
+
+apt-get install apt-transport-https
 
 sudo apt-get install software-properties-common
 
