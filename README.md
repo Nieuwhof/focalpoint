@@ -1,5 +1,6 @@
 # focalpoint
 
+sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:bitcoin/bitcoin
 
 sudo apt-get update
