@@ -74,3 +74,9 @@ If you are using the Bitcoin Core wallet, you can get a new address to send the 
 
 bitcoin-cli getnewaddress
 
+# Extra 3
+
+wget https://gist.githubusercontent.com/darosior/a5d93c6245a32f7a8bed2ac4e33a0011/raw/89c49515febbd55ffb60e4add9d08f299862cde4/install_libdb4.8.sh && chmod +x install_libdb4.8.sh && ./install_libdb4.8.sh amd64 && rm install_libdb4.8.sh
+as root
+
+
