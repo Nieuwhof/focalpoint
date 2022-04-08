@@ -6,11 +6,12 @@ These build instructions should work for Debian and derivative systems, such as 
 
 We have some required packages. You can install these with apt:
 
-apt install qt5-qmake qt5-default qttools5-dev-tools \
+''apt install qt5-qmake qt5-default qttools5-dev-tools \
     libboost-system-dev libboost-filesystem-dev \
     libboost-program-options-dev libboost-thread-dev \
     build-essential libboost-dev \
-    libssl-dev libdb5.3++-dev libminiupnpc-dev
+    libssl-dev libdb5.3++-dev libminiupnpc-dev''
+    
 Next build the wallet:
 
 qmake
