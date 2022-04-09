@@ -1,8 +1,8 @@
-#Qt5 GUI for Focal
+# Qt5 GUI for Focal
 
-#Build instructions
+# Build instructions
 
-#Debian
+# Debian
 
 These build instructions should work for Debian and derivative systems, such as Ubuntu and Linux Mint.
 
@@ -19,9 +19,9 @@ Next build the wallet:
 qmake
 make
 
-#An executable named Focal-Qt will be built.
+# An executable named Focal-Qt will be built.
 
-#Fedora
+# Fedora
 
 These build instructions should work for Fedora and derivative systems, such as Red Hat Enterprise Linux and Oracle Linux.
 
@@ -30,7 +30,7 @@ We have some required packages. You can install these with dnf:
 dnf install gcc-c++ boost-devel openssl-devel libdb-cxx-devel \
     miniupnpc-devel qmake-qt5
 
-#Next build the wallet:
+# Next build the wallet:
 
 qmake-qt5
 
@@ -38,16 +38,17 @@ make
 
 An executable named MintCoin-Qt will be built.
 
-#Windows
+# Windows
 
-#Windows build instructions:
+# Windows build instructions:
 
 Download the QT Windows SDK and install it. You don't need the Symbian stuff, just the desktop Qt.
 Download and extract the dependencies archive [1], or compile openssl, boost and dbcxx yourself.
 Copy the contents of the folder "deps" to "X:\QtSDK\mingw", replace X:\ with the location where you installed the Qt SDK. Make sure that the contents of "deps\include" end up in the current "include" directory.
 Open the .pro file in QT creator and build as normal (ctrl-B)
 [1]	PGP signature: https://download.visucore.com/bitcoin/qtgui_deps_1.zip.sig (signed with RSA key ID 610945D0)
-Mac OS X
+
+# Mac OS X
 
 Download and install the Qt Mac OS X SDK. It is recommended to also install Apple's Xcode with UNIX tools.
 Download and install MacPorts.
@@ -57,16 +58,17 @@ sudo port install boost db53 miniupnpc
 Open the .pro file in Qt Creator and build as normal (cmd-B)
 Build configuration options
 
-#UPNnP port forwarding
+# UPNnP port forwarding
 
 To use UPnP for port forwarding behind a NAT router (recommended, as more connections overall allow for a faster and more stable bitcoin experience), pass the following argument to qmake:
 
-#qmake "USE_UPNP=1"
+qmake "USE_UPNP=1"
+
 (in Qt Creator, you can find the setting for additional qmake arguments under "Projects" -> "Build Settings" -> "Build Steps", then click "Details" next to qmake)
 
 This requires miniupnpc for UPnP port mapping. It can be downloaded from http://miniupnp.tuxfamily.org/files/. UPnP support is not compiled in by default.
 
-#Set USE_UPNP to a different value to control this:
+# Set USE_UPNP to a different value to control this:
 
 USE_UPNP=-	no UPnP support, miniupnpc not required;
 USE_UPNP=0	(the default) built with UPnP, support turned off by default at runtime;
